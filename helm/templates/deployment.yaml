@@ -17,6 +17,4 @@ spec:
           image: igfred/api-calculator:v01  # Use a public Node.js image or your custom built image
           ports:
             - containerPort: 4000
-          env:
-            - name: NODE_ENV
-              value: "production"
+    
