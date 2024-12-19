@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: calculator-container
-          image: igfred/api-calculator:v01  # Use a public Node.js image or your custom built image
+          image: igfred/api-calculator:v01  # Using the container image from docker repo.
           ports:
             - containerPort: 4000
     
